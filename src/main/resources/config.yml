@@ -1,0 +1,27 @@
+# IWanted plugin 1.0 - Developed by zImpoo_
+# Telegram: @tentava - Discord: Impopite
+
+# Use § for the chat color
+
+PREFIX: "§cWANTED §8» " # Leave the final space
+
+PERMISSION:
+  DEFAULT: "wanted.use"
+  ADMIN: "wanted.staff"
+
+
+MAX-WANTED-LENGHT: 5 # Maximum wanted on a page.
+
+MESSAGE: # %player% = The wanted player
+  WANTED-ADD: "§b%player% §7è ora ricercato."
+  ALWAYS-WANTED: "§b%player% §7è gia ricercato."
+  WANTED-REMOVED: "§b%player% §7è stato rimosso dai ricercati."
+  WANTED-LOG: "§7Il ricercato §b%player% §bè entrato in città."
+  NO-WANTED: "§7Non ci sono ricercati in città" # No placeholder
+  PLAYER-NOT-WANTED: "§b%player% §7non è ricercato."
+
+  NO-PERMISSION: "§cNon hai abbastanza permessi."
+  ARGUMENTS-ERROR: "§cUsa §f/wanted help"
+  PLAYER-NOT-FOUND: "§cGiocatore non trovato"
+
+  CONFIG-RELOADED: "§aFile di configurazione ricaricato con successo!"

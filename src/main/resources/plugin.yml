@@ -1,0 +1,4 @@
+name: IWanted
+version: '${project.version}'
+main: it.impo.iwanted.IWanted
+api-version: '1.16'
